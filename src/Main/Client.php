@@ -2,7 +2,7 @@
 
 namespace Src\Main;
 
-use Src\Services\EuroAdapter;
+use Src\Adapter\EuroAdapter;
 use Src\Services\DollarCalc;
 use Src\Interfaces\ITarget;
 

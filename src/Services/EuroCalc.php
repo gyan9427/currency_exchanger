@@ -2,7 +2,7 @@
 
 namespace Src\Services;
 
-class DollarCalc
+class EuroCalc
 {
     private $euro;
     private $product;
@@ -19,7 +19,8 @@ class DollarCalc
 
     public function requestTotal()
     {
-        $this->dollar *= $this->rate;
+        
+        $this->euro *= $this->rate;
         return $this->euro;
     }
     
